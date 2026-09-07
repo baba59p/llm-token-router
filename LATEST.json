@@ -1,9 +1,9 @@
 {
-  "version": "2026.09.07.10",
+  "version": "2026.09.07.11",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "Silent update every 6h applies SKUs, models, tools. Pins never rewritten. Sonnet 5 is $2/$10.",
-  "download_url": "",
+  "notes": "Silent update hot-patches pack files when a newer zip is published. Pins never rewritten. Sonnet 5 is $2/$10.",
+  "download_url": "https://assets-2-prod.whop.com/public/uploads/2026-09-07/5d0b6845-249f-4e8b-8797-7179bdad8b20/application.zip",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
     "cheap": "gpt-5.6-luna | claude-haiku-4.5 | deepseek-v4-flash",
