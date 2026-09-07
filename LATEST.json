@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07.8",
+  "version": "2026.09.07.9",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "One product: EFF + RouteLLM + LiteLLM. Pins never rewritten. Sonnet 5 is $2/$10. SNIPPET does not need a re-paste.",
+  "notes": "Update refreshes SKUs, tools, and the LiteLLM gateway. Pins never rewritten. Sonnet 5 is $2/$10.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
@@ -10,6 +10,16 @@
     "workhorse": "claude-sonnet-5 | gpt-5.6-terra | grok-4.6@medium | gemini-3.8-flash",
     "frontier": "claude-opus-5 | gpt-5.6-sol | grok-4.6@high",
     "ceiling": "claude-fable-5.1@xhigh | gpt-5.6-sol@ultra | gpt-6-astra"
+  },
+  "tools": {
+    "search": "grok-4.6 + search @ medium",
+    "live_x": "grok-4.6 + search @ medium",
+    "vision": "gemini-3.8-flash",
+    "workspace": "gemini-3.8-flash or gemini-3.1-pro (Pro if huge)",
+    "code": "claude-sonnet-5 | gpt-5.6-terra | grok-4.6@medium",
+    "terminal": "gpt-5.6-sol",
+    "browser": "gemini-3.8-flash",
+    "docs": "gemini-3.8-flash"
   },
   "catalog": {
     "cheap": [
