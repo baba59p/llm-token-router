@@ -1,7 +1,7 @@
 {
-  "version": "2026.09.07.public",
+  "version": "2026.09.07.1",
   "released": "2026-09-07",
-  "notes": "Current public build.",
+  "notes": "Final 2026.09.07.1. Optional update; never blocks the router.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack"
 }
