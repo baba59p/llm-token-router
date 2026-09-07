@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07.4",
+  "version": "2026.09.07.5",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "Auto-update built in. SNIPPET does not need a re-paste.",
+  "notes": "Catalog overlay only. Never rewrites user files. SNIPPET does not need a re-paste.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
