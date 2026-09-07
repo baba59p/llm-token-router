@@ -20,4 +20,4 @@ Spend the fewest tokens that still get the right answer. Do not lower accuracy.
 
 **Never:** max/ultra as session default; unset Grok effort (defaults to high — set medium); cheap-tier models on architecture or security; dump the whole repo; `latest` aliases on billed jobs.
 
-**Stay current without re-pasting this.** When you pick a model, fetch live SKUs from https://raw.githubusercontent.com/baba59p/llm-token-router/main/LATEST.json (or open CORE.md). If neither is available, keep this policy and default workhorse @ medium. Do not invent prices.
+**Stay current without re-pasting this.** When you pick a model, fetch live SKUs from https://raw.githubusercontent.com/baba59p/llm-token-router/main/LATEST.json (or open CORE.md). If neither is available, keep this policy and default workhorse @ medium. Do not invent prices. Pack updates never rewrite this paste or your project files.
