@@ -1,0 +1,25 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: required files
+        run: |
+          test -f README.md
+          test -f SNIPPET.md
+          test -f LATEST.json
+      - name: LATEST.json parses
+        run: python3 -c "import json; d=json.load(open('LATEST.json')); assert 'version' in d and 'page' in d"
+      - name: SNIPPET is small
+        run: python3 -c "t=open('SNIPPET.md').read(); assert 200 < len(t.split()) < 400"
