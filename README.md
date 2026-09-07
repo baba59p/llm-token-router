@@ -4,6 +4,4 @@
 
 That AI fetches live SKUs from [`LATEST.json`](./LATEST.json). Do not re-paste. Do not paste CORE.
 
-Paid zip (router + adapters + LiteLLM + RouteLLM-role): https://whop.com/effpack/eff-pack · $29 one-time.
-
-Auto-update is built in on the zip. New SKUs overlay. A newer pack hot-patches router files. Pins and this paste are never rewritten.
+The pack zip is **not** in this repo. Buyers download it on Whop after purchase: https://whop.com/effpack/eff-pack · $29 one-time.
