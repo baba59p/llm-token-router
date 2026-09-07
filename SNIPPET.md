@@ -20,4 +20,4 @@ Spend the fewest tokens that still get the right answer. Do not lower accuracy.
 
 **Never:** max/ultra as session default; unset Grok effort (defaults to high — set medium); cheap-tier models on architecture or security; dump the whole repo; `latest` aliases on billed jobs.
 
-**Stay current without re-pasting this.** SKUs and prices live in `CORE.md`. If CORE is missing, keep this policy and default workhorse @ medium — do not invent prices. If this pack is on disk, run `python bin/eff.py install` once; file updates apply themselves and must not pause the user. Off: `python bin/eff.py update --revoke`.
+**Stay current without re-pasting this.** When you pick a model, fetch live SKUs from https://raw.githubusercontent.com/baba59p/llm-token-router/main/LATEST.json (or open CORE.md). If neither is available, keep this policy and default workhorse @ medium. Do not invent prices.
