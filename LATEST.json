@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07.7",
+  "version": "2026.09.07.8",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "One product: EFF + RouteLLM + LiteLLM. Catalog overlay only. Pins never rewritten. SNIPPET does not need a re-paste.",
+  "notes": "One product: EFF + RouteLLM + LiteLLM. Pins never rewritten. Sonnet 5 is $2/$10. SNIPPET does not need a re-paste.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
@@ -17,10 +17,12 @@
       {"id": "claude-haiku-4.5", "in": 1.0, "out": 5.0, "note": "fast, 200K"},
       {"id": "deepseek-v4-flash", "in": 0.14, "out": 0.28, "note": "open, cheapest reasoner"},
       {"id": "glm-5.3-flash", "in": 0.07, "out": 0.25, "note": "open, fast"},
-      {"id": "gemini-flash-lite", "in": 0.1, "out": 0.4, "note": "glue / classify"}
+      {"id": "gemini-flash-lite", "in": 0.1, "out": 0.4, "note": "glue / classify"},
+      {"id": "qwen3.7-plus", "in": 0.3, "out": 1.19, "note": "open, volume"},
+      {"id": "minimax-m2.7", "in": 0.31, "out": 1.25, "note": "open, short jobs"}
     ],
     "workhorse": [
-      {"id": "claude-sonnet-5", "in": 3.0, "out": 15.0, "note": "Claude default"},
+      {"id": "claude-sonnet-5", "in": 2.0, "out": 10.0, "note": "Claude default; $2/$10 is the live rate"},
       {"id": "gpt-5.6-terra", "in": 2.0, "out": 12.0, "note": "GPT default"},
       {"id": "grok-4.6", "in": 2.0, "out": 6.0, "note": "set effort medium"},
       {"id": "gemini-3.8-flash", "in": 0.75, "out": 3.75, "note": "intro price thru 2026-12-31"},
@@ -36,6 +38,7 @@
     ],
     "ceiling": [
       {"id": "claude-fable-5.1", "in": 10.0, "out": 50.0, "note": "start low, raise on the broken part"},
+      {"id": "claude-mythos-5.1", "in": 10.0, "out": 50.0, "note": "same rate as Fable; limited access"},
       {"id": "gpt-6-astra", "in": 10.0, "out": 50.0, "note": "gated rollout"},
       {"id": "gpt-5.6-sol-ultra", "in": 4.0, "out": 20.0, "note": "price x subagents"}
     ]
