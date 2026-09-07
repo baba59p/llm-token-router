@@ -1,12 +1,7 @@
 # EFF Pack — public snippet
 
-Standing orders you can paste into Claude, Cursor, ChatGPT, Gemini, or Grok.
-File: [`SNIPPET.md`](./SNIPPET.md)
+**Install:** copy [`SNIPPET.md`](./SNIPPET.md) → paste into your AI’s custom instructions. Once.
 
-Paste **once**. Do not re-paste after pack updates. SKUs and prices live in the paid zip’s `CORE.md`.
+That AI fetches live SKUs from [`LATEST.json`](./LATEST.json). Do not re-paste. Do not paste CORE.
 
-The routing table, local router, and adapters are in the paid zip.
-**$29 one-time:** https://whop.com/effpack/eff-pack
-
-`LATEST.json` is a version + catalog list for an optional check inside the paid CLI.
-It does not contain the pack.
+Paid zip (router + adapters): https://whop.com/effpack/eff-pack · $29 one-time.
