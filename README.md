@@ -13,14 +13,7 @@ The paid zip adds the routing table, local router, adapters, and the accuracy fl
 
 Copy [`SNIPPET.md`](./SNIPPET.md) into custom instructions / Cursor user rules / Gemini system instruction.
 
-That is the always-on text. It tells the model:
-
-- default to a mid model, not the most expensive one
-- use a cheap model for format / extract / rewrite
-- skip cheap on auth, payments, incidents, and anything that already failed
-- keep answers short
-
-Do not paste a long policy into those fields. Long standing text costs more than it saves.
+That is the always-on text. Do not paste a long policy into those fields.
 
 ---
 
@@ -37,14 +30,12 @@ After you buy, open **1. DOWNLOAD THE ZIP** on Whop and download the attachment.
 | `adapters/` | Append onto Claude / Cursor / ChatGPT / Gemini / Grok / Copilot |
 | `STATS.md` | Where the $180 vs $21.60 numbers come from |
 
-Proof after unzip:
-
 ```bash
 python bin/eff.py route "write the changelog"
 # cheap @ low
 
-python bin/eff.py route "fix the oauth refresh race in production"
-# frontier @ high, skip cheap
+python bin/eff.py update
+# optional check every 14 days. asks before any download. never blocks the router.
 ```
 
 ---
@@ -58,8 +49,6 @@ Fixed shape: 8,000 input + 2,000 output. 7 September 2026 list prices.
 | All Fable 5.1 | $180 |
 | All Terra | $40 |
 | Target 70 / 20 / 8 / 2 | $21.60 |
-
-Independent systems doing this job (not this zip): RouteLLM 85% cheaper on MT-Bench at 95% GPT-4 quality. A LiteLLM partner saved $12,249 (51%) on 273k requests vs all-flagship.
 
 ---
 
