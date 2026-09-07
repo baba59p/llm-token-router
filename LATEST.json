@@ -1,7 +1,43 @@
 {
-  "version": "2026.09.07.1",
+  "version": "2026.09.07.3",
   "released": "2026-09-07",
-  "notes": "Final 2026.09.07.1. Optional update; never blocks the router.",
+  "snapshot": "7 Sep 2026 list prices",
+  "notes": "Catalog overlay. SNIPPET does not need a re-paste.",
   "download_url": "",
-  "page": "https://whop.com/effpack/eff-pack"
+  "page": "https://whop.com/effpack/eff-pack",
+  "pick": {
+    "cheap": "gpt-5.6-luna | claude-haiku-4.5 | deepseek-v4-flash",
+    "workhorse": "claude-sonnet-5 | gpt-5.6-terra | grok-4.6@medium | gemini-3.8-flash",
+    "frontier": "claude-opus-5 | gpt-5.6-sol | grok-4.6@high",
+    "ceiling": "claude-fable-5.1@xhigh | gpt-5.6-sol@ultra | gpt-6-astra"
+  },
+  "catalog": {
+    "cheap": [
+      {"id": "gpt-5.6-luna", "in": 0.2, "out": 1.2, "note": "short inputs only"},
+      {"id": "claude-haiku-4.5", "in": 1.0, "out": 5.0, "note": "fast, 200K"},
+      {"id": "deepseek-v4-flash", "in": 0.14, "out": 0.28, "note": "open, cheapest reasoner"},
+      {"id": "glm-5.3-flash", "in": 0.07, "out": 0.25, "note": "open, fast"},
+      {"id": "gemini-flash-lite", "in": 0.1, "out": 0.4, "note": "glue / classify"}
+    ],
+    "workhorse": [
+      {"id": "claude-sonnet-5", "in": 3.0, "out": 15.0, "note": "Claude default"},
+      {"id": "gpt-5.6-terra", "in": 2.0, "out": 12.0, "note": "GPT default"},
+      {"id": "grok-4.6", "in": 2.0, "out": 6.0, "note": "set effort medium"},
+      {"id": "gemini-3.8-flash", "in": 0.75, "out": 3.75, "note": "intro price thru 2026-12-31"},
+      {"id": "glm-5.3", "in": 1.4, "out": 4.4, "note": "open coding value"},
+      {"id": "kimi-k3", "in": 3.0, "out": 15.0, "note": "open-ish long-horizon"}
+    ],
+    "frontier": [
+      {"id": "claude-opus-5", "in": 5.0, "out": 25.0, "note": "daily frontier"},
+      {"id": "gpt-5.6-sol", "in": 4.0, "out": 20.0, "note": "tools / terminal / Ultra"},
+      {"id": "gemini-3.1-pro", "in": 2.0, "out": 12.0, "note": "big multimodal"},
+      {"id": "grok-4.6-high", "in": 2.0, "out": 6.0, "note": "same SKU, high effort"},
+      {"id": "deepseek-v4", "in": 0.44, "out": 0.87, "note": "open near-frontier"}
+    ],
+    "ceiling": [
+      {"id": "claude-fable-5.1", "in": 10.0, "out": 50.0, "note": "start low, raise on the broken part"},
+      {"id": "gpt-6-astra", "in": 10.0, "out": 50.0, "note": "gated rollout"},
+      {"id": "gpt-5.6-sol-ultra", "in": 4.0, "out": 20.0, "note": "price \u00d7 subagents"}
+    ]
+  }
 }
