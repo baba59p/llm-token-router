@@ -1,57 +1,10 @@
-# EFF Pack
+# EFF Pack — public snippet
 
-Stop paying frontier prices for work a cheap model can finish.
+Standing orders you can paste into Claude, Cursor, ChatGPT, or Gemini.
+File: [`SNIPPET.md`](./SNIPPET.md)
 
-This public repo is the **free standing orders** plus a buy link.
-The paid zip adds the routing table, local router, adapters, and the accuracy floor.
+The routing table, local router, and adapters are in the paid zip.
+**$29 one-time:** https://whop.com/effpack/eff-pack
 
-**Buy ($29 one-time):** https://whop.com/effpack/eff-pack
-
----
-
-## If you only do one thing
-
-Copy [`SNIPPET.md`](./SNIPPET.md) into custom instructions / Cursor user rules / Gemini system instruction.
-
-That is the always-on text. Do not paste a long policy into those fields.
-
----
-
-## What the paid zip adds
-
-After you buy, open **1. DOWNLOAD THE ZIP** on Whop and download the attachment.
-
-| In the zip | What you do with it |
-|---|---|
-| `START_HERE.md` | Four-minute setup |
-| `CORE.md` | Keep as a **file**. Do not paste it into custom instructions |
-| `bin/eff.py` | `python bin/eff.py route "your task"` — no API key |
-| `DO_NOT_DEGRADE.md` | The accuracy floor |
-| `adapters/` | Append onto Claude / Cursor / ChatGPT / Gemini / Grok / Copilot |
-| `STATS.md` | Where the $180 vs $21.60 numbers come from |
-
-```bash
-python bin/eff.py route "write the changelog"
-# cheap @ low
-
-python bin/eff.py update
-# optional check every 14 days. asks before any download. never blocks the router.
-```
-
----
-
-## Catalog math (not a promise about your bill)
-
-Fixed shape: 8,000 input + 2,000 output. 7 September 2026 list prices.
-
-| Mix | 1,000 calls |
-|---|---|
-| All Fable 5.1 | $180 |
-| All Terra | $40 |
-| Target 70 / 20 / 8 / 2 | $21.60 |
-
----
-
-## Refund
-
-If the zip will not open or `python bin/eff.py` will not run on Python 3.9+, the $29 comes back.
+`LATEST.json` is a version list for an optional check inside the paid CLI.
+It does not contain the pack.
