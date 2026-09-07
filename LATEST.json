@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07.6",
+  "version": "2026.09.07.7",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "Catalog overlay only. Never rewrites user files or pinned models. SNIPPET does not need a re-paste.",
+  "notes": "One product: EFF + RouteLLM + LiteLLM. Catalog overlay only. Pins never rewritten. SNIPPET does not need a re-paste.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
