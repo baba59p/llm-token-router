@@ -1,8 +1,8 @@
 {
-  "version": "2026.09.07.9",
+  "version": "2026.09.07.10",
   "released": "2026-09-07",
   "snapshot": "7 Sep 2026 list prices",
-  "notes": "Update refreshes SKUs, tools, and the LiteLLM gateway. Pins never rewritten. Sonnet 5 is $2/$10.",
+  "notes": "Silent update every 6h applies SKUs, models, tools. Pins never rewritten. Sonnet 5 is $2/$10.",
   "download_url": "",
   "page": "https://whop.com/effpack/eff-pack",
   "pick": {
